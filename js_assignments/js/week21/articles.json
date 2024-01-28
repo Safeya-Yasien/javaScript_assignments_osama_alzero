@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "writer": "Ahmed",
+    "section": "Romantic",
+    "title": "Titanic",
+    "content": "romantic story"
+  },
+  {
+    "id": 2,
+    "writer": "Mohamed",
+    "section": "Action",
+    "title": "Fast and fairuous",
+    "content": "Action story"
+  },
+  {
+    "id": 3,
+    "writer": "Mahmoud",
+    "section": "Action",
+    "title": "Fast and fairuous",
+    "content": "Action story"
+  },
+  {
+    "id": 4,
+    "writer": "Mazen",
+    "section": "Action",
+    "title": "Fast and fairuous",
+    "content": "Action story"
+  },
+  {
+    "id": 5,
+    "writer": "Mostafa",
+    "section": "Action",
+    "title": "Fast and fairuous",
+    "content": "Action story"
+  }
+]

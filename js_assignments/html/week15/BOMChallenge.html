@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOM Challenge</title>
+    <style>
+      .form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px auto;
+        background-color: #ddd;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      @media (max-width: 767px) {
+        .form {
+          flex-direction: column;
+          gap: 15px;
+        }
+      }
+
+      .form input {
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        outline: none;
+      }
+
+      .form input[type="text"] {
+        flex: 1;
+      }
+
+      .form input[type="submit"] {
+        background-color: rgb(98, 3, 69);
+        color: #fff;
+        margin: 0px 10px;
+        cursor: pointer;
+      }
+
+      .tasks {
+        margin: 50px auto;
+        background-color: #ddd;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <input type="text" class="input" />
+        <input type="submit" class="add" value="Add Task" />
+      </div>
+      <div class="tasks"></div>
+    </div>
+    <script src="../../js/week15/BOMChallenge.js"></script>
+  </body>
+</html>
